@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ben">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Greenhouse</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>	
+		<header class="nav-container">
+			<img src="images/leaf-logo.png" alt="Plant Logo">
+			<h1 id="logoName">Green<b>house</b></h1>
+			<nav id="menu">
+				<a class="clr-chng-btn" href="home.html">Home</a>
+				<a class="clr-chng-btn" href="plant-care.html">Plant Care</a>
+				<a class="clr-chng-btn current-page" href="gallery.html">Gallery</a>
+				<div id="hoverToDrop">
+					<button class="about">About Us</button>
+					<div class="dropdown">
+						<a class="clr-chng-btn" href="about-us.html">Greenhouse</a>
+						<a class="clr-chng-btn" href="about-us.html#mission">Our Mission</a>
+						<a class="clr-chng-btn" href="about-us.html#contact">Contact Us</a>
+					</div>
+				</div>
+			</nav>
+			<div class="hamburger">
+				<div class="bar"></div>
+			</div>
+		</header>
+        <main>
+            <section class="gallery-intro" aria-label="houseplant gallery intro">
+                <div class="image-container">
+                    <img src="images/gallery/gallery-intro.jpg" alt="Room of Houseplants">
+                </div>
+                <div class="text-container">
+                    <h2>LEARN MORE ABOUT YOUR HOUSEPLANTS</h2>
+                    <p>
+                        Nurturing your houseplants takes lots of time and effort, but after months of potting, watering and training the effort pays off!
+                    </p>
+                    <p>
+                        The Greenhouse plant gallery is here to introduce you to some popular indoor plants.
+                        Whether you're new to growing indoor plants or you're a green fingered veteran looking to expand your collection, we have created this space to showcase some common plants that you may be interested in growing.
+                    </p>
+                    <a class="clr-chng-btn" href="#jumpToGallery">Jump to gallery</a>
+                </div>
+            </section>
+            <section class="care-indexes" aria-labelledby="careIndexes">
+                <div class="text-container">
+                    <h2 id="careIndexes">Care Indexes</h2>
+                    <p>
+                        We have created a custom sunlight and water index, to show how demanding each plant is to grow, and listed something unique/interesting about that variety of plant.
+                    </p>
+                    <div class="indexes">
+                        <div class="index-container">
+                            <div class="rating-container">
+                                <img src="images/gallery/indexes/sun.png" alt="Sun Icon">
+                                <p>- Low Light</p>
+                            </div>
+                            <div class="rating-container">
+                                <img src="images/gallery/indexes/sun-two.png" alt="Two Sun Icon">
+                            </div>
+                            <div class="rating-container">
+                                <img src="images/gallery/indexes/sun-three.png" alt="Three Sun Icon">
+                                <p>- Indirect Light</p>
+                            </div>
+                            <div class="rating-container">
+                                <img src="images/gallery/indexes/sun-four.png" alt="Four Sun Icon">
+                            </div>
+                            <div class="rating-container">
+                                <img src="images/gallery/indexes/sun-five.png" alt="Five Sun Icon">
+                                <p>- Bright Light</p>
+                            </div>
+                        </div>
+                        <div class="index-container">
+                            <div class="rating-container">
+                                <img src="images/gallery/indexes/waterdrop.png" alt="Waterdrop Icon">
+                                <p>- Drought Resistant</p>
+                            </div>
+                            <div class="rating-container">
+                                <img src="images/gallery/indexes/waterdrop-two.png" alt="Two Waterdrop Icon">
+                            </div>
+                            <div class="rating-container">
+                                <img src="images/gallery/indexes/waterdrop-three.png" alt="Three Waterdrop Icon">
+                                <p>- Let Soil Dry Between Waters</p>
+                            </div>
+                            <div class="rating-container">
+                                <img src="images/gallery/indexes/waterdrop-four.png" alt="Four Waterdrop Icon">
+                            </div>
+                            <div class="rating-container">
+                                <img src="images/gallery/indexes/waterdrop-five.png" alt="Five Waterdrop Icon">
+                                <p>- Moist Soil</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        Each index gives a rough idea of how how much of each of these resources a plant demands.
+                        Plants with a 4/5 on either scale typically require the most of this resource, while plants with 1/2 need very little.
+                    </p>
+                    <p>
+                        If you are looking for a variety of indoor plant that is easy to care for and won't die on you while you're away, we recommend choosing a variety with a low water index.
+                        Choosing a plant that likes lots of sun isn't usually a problem, as long as you water it as recommended and leave it in a spot that recieves lots of daylight!
+                    </p>
+                </div>
+            </section>
+            <section class="plant-gallery" id="jumpToGallery" aria-labelledby="plantgallery">
+                <h2 id="plantgallery">Plant gallery</h2>
+                <div class="search-container">
+                    <button class="openbtn" id="openSearch">&#9776; PLANT SEARCH</button>
+                    <div class="search hide" id="searchTab">
+                        <button class="closebtn">&#9776; CLOSE SEARCH</button>
+                        <input type="text" id="plantSearch" placeholder="Search..." aria-label="search" title="Enter a plant name to search!" autocomplete="off">
+                        <ul id="searchList">
+                        </ul>
+                    </div>
+                </div>
+                <div class="gallery-container" id="gallery">
+                </div>
+                <a id="gallery-top" href="#jumpToGallery">JUMP TO TOP</a>
+            </section>
+        </main>
+		<footer id="footer">
+			<p>© Copyright 2023 Green<b>house</b></p>
+		</footer>
+        <script src="js/nav.js"></script>
+        <script src="js/gallery.js"></script>
+    </body>
+</html>

@@ -1,0 +1,98 @@
+[
+    {
+        "id": "spider-plant",
+        "name": "SPIDER PLANT",
+        "img": "images/gallery/spider-plant.jpg",
+        "sun": "images/gallery/indexes/sun-three.png",
+        "water": "images/gallery/indexes/waterdrop-two.png",
+        "text": "In the right conditions, Spider Plants can asexually reproduce by developing long stems which produce small clones called 'spiderettes'."
+    },
+    {
+        "id": "monstera",
+        "name": "MONSTERA",
+        "img": "images/gallery/monstera.jpg",
+        "sun": "images/gallery/indexes/sun-four.png",
+        "water": "images/gallery/indexes/waterdrop-three.png",
+        "text": "Holey leaves allow Monsteras to grow and cover a larger area while needing to use less resources to do so, it also stops the upper leaves from blocking the sun."
+    },
+    {
+        "id": "snake-plant",
+        "name": "SNAKE PLANT",
+        "img": "images/gallery/snake-plant.jpg",
+        "sun": "images/gallery/indexes/sun.png",
+        "water": "images/gallery/indexes/waterdrop.png",
+        "text": "Instead of releasing oxygen in the day while the plant photosynthesises, Snake Plants only release oxygen at night to avoid dehydration."
+    },
+    {
+        "id": "angels-wing-cactus",
+        "name": "ANGEL'S WING CACTUS",
+        "img": "images/gallery/angels-wing-cactus.jpg",
+        "sun": "images/gallery/indexes/sun-five.png",
+        "water": "images/gallery/indexes/waterdrop.png",
+        "text": "This plant is commonly know as the prickly pear as it produces sweet edible fruit that are eaten raw, and are used in traditional mexican cuisine."
+    },
+    {
+        "id": "golden-pothos",
+        "name": "GOLDEN POTHOS",
+        "img": "images/gallery/golden-pothos.jpg",
+        "sun": "images/gallery/indexes/sun-two.png",
+        "water": "images/gallery/indexes/waterdrop-two.png",
+        "text": "The Golden Pothos is a native of Australia, Indonesia, China, Japan and India. Every part of this plant is poisonous to humans and animals."
+    },
+    {
+        "id": "chinese-money-plant",
+        "name": "CHINESE MONEY PLANT",
+        "img": "images/gallery/chinese-money-plant.jpg",
+        "sun": "images/gallery/indexes/sun-three.png",
+        "water": "images/gallery/indexes/waterdrop-two.png",
+        "text": " Brought to Europe from China by a Swedish missionary in 1946, this plant was discovered growing on the CanShang mountains in Yunna province."
+    },
+    {
+        "id": "rubber-plant",
+        "name": "RUBBER PLANT",
+        "img": "images/gallery/rubber-plant.jpg",
+        "sun": "images/gallery/indexes/sun-four.png",
+        "water": "images/gallery/indexes/waterdrop-three.png",
+        "text": "Yes, rubber comes from the Rubber Plant! The Ficus elastica is a well-known household plant that produces latex, which is used to produce rubber."
+    },
+    {
+        "id": "jade-plant",
+        "name": "JADE PLANT",
+        "img": "images/gallery/jade-plant.jpg",
+        "sun": "images/gallery/indexes/sun-five.png",
+        "water": "images/gallery/indexes/waterdrop.png",
+        "text": "The Chinese Money Plant has long been used in chinese medicine as extracts from this plant are used to treat wounds, stomach upsets and warts."
+    },
+    {
+        "id": "african-milk-tree",
+        "name": "AFRICAN MILK TREE",
+        "img": "images/gallery/african-milk-tree.jpg",
+        "sun": "images/gallery/indexes/sun-four.png",
+        "water": "images/gallery/indexes/waterdrop-two.png",
+        "text": "Often mistaken for a cactus, the African Milk tree is a succulent native to central Africa that gets its name from the milky white sap it produces."
+    },
+    {
+        "id": "string-of-pearls",
+        "name": "STRING OF PEARLS",
+        "img": "images/gallery/string-of-pearls.jpg",
+        "sun": "images/gallery/indexes/sun-four.png",
+        "water": "images/gallery/indexes/waterdrop-two.png",
+        "text": "A narrow translucent band of tissue on each pearl allows light to enter and irradate the interior of the leaf, this increases photosynthetic productivity."
+    },
+    {
+        "id": "areca-palm",
+        "name": "ARECA PALM",
+        "img": "images/gallery/areca-palm.jpg",
+        "sun": "images/gallery/indexes/sun-three.png",
+        "water": "images/gallery/indexes/waterdrop-three.png",
+        "text": "The Areca is often referred to as a cane type palm because it's long stems are closely resemble that of a bamboo plant, causing the two to often get confused."
+    },
+    {
+        "id": "calathea",
+        "name": "CALATHEA",
+        "img": "images/gallery/calathea.jpg",
+        "sun": "images/gallery/indexes/sun-three.png",
+        "water": "images/gallery/indexes/waterdrop-three.png",
+        "text": "If watered frequently enough, some varieties of Calathea open and close their leaves during the day and night cycle in response to the changing light levels."
+    }
+]

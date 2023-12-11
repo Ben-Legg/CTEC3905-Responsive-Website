@@ -1,0 +1,921 @@
+a {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 23px;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #001b00;
+}
+
+main {
+    max-width: 1600px;
+    margin: auto;
+}
+
+section {
+    margin-block: 8em;
+}
+
+.clr-chng-btn {
+    border-radius: 5px;
+    border: 2px solid #001b00;
+    color: #001b00;
+    background-color: #e0e7e0;
+    transition: 0.75s;
+}
+
+.clr-chng-btn:hover {
+    border-radius: 15px;
+    color: #e0e7e0;
+    background-color: #001b00;
+}
+
+/* Header - Navigation Container 606b60*/
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e0e7e0;
+}
+
+.nav-container img {
+    width: 40px;
+    height: 40px;
+    margin-block: 2.2em;
+    margin-left: 1em;
+    padding: 0.25em;
+    border: 1px solid #001b00;
+    border-radius: 20px;
+}
+
+.nav-container h1 {
+    margin-block: 1.8em;
+    font-size: 1.7em;
+    font-weight: normal;
+    letter-spacing: -3px;
+}
+
+.nav-container h1.hide {
+    display: none;
+}
+
+.nav-container a {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    margin: 0.5em 1em;
+    display: none;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+nav.show {
+    display: flex;
+}
+
+nav a {
+    padding: 0.5em 1em;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#hoverToDrop:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    padding: 0.657em 1.4em;
+    border: 2px solid #001b00;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    font-size: 1em;
+    background-color: #e0e7e0;
+    color: #001b00;
+    transition: 0.75s;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+}
+
+.dropdown a {
+    margin-block: 0.1em;
+    padding: 0.75em 1em;
+    letter-spacing: 3px;
+    font-size: 0.8em;
+    display: block;
+    position: relative;
+    top: 0.1em;
+    left: 0.5em;
+}
+
+.current-page {
+    background-color: #001b00;
+    color: #e0e7e0;
+}
+
+.hamburger {
+    width: 40px;
+    margin-block: 2.3em;
+    margin-right: 1em;
+    padding: 0.3em;
+    background: none;
+    cursor: pointer;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before {
+    width: 100%;
+    height: 4px;
+    margin: 6px 0px;
+    content: '';
+    display: block;
+    border-radius: 2px;
+    transition: 0.3s;
+    background: #001b00;
+}
+
+.hamburger.is-active:before {
+    transform: translate(0, 8px);
+    opacity: 0;
+}
+
+.hamburger.is-active:after {
+    transform: translate(0, -8px);
+    opacity: 0;
+}
+
+/* --------------------------------------------------------- */
+
+/* Main Content */
+
+/* Landing Screen [HOME] */
+
+.landing-screen {
+    min-height: 100vh;
+    margin-top: 0;
+    background-color: #e9e2dd;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 15px;
+}
+
+.landing-screen img {
+    width: 100%;
+    height: auto;
+}
+
+.landing-screen .image-container {
+    padding-bottom: 2em;
+}
+
+.landing-screen .text-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-inline: 2em;
+}
+
+.landing-screen .text-container h2 {
+    font-size: 1.3em;
+}
+
+.landing-screen a {
+    margin: 0.6em;
+    padding: 0.7em;
+    display: block;
+    text-align: center;
+    letter-spacing: 3px;
+    background-color: #e9e2dd;
+}
+
+.landing-screen a:hover {
+    color: #e9e2dd;
+}
+
+.landing-screen .quote {
+    padding-block: 1em;
+    text-align: center;
+    font-style: italic;
+}
+
+.landing-screen .quote h3 {
+    font-size: 1em;
+}
+
+/* --------------------------------------------------------- */
+
+/* Why Houseplants? [HOME]*/
+
+.why-houseplants {
+    min-height: 70vh;
+    margin-inline: 1em;
+}
+
+.why-houseplants .text-container {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.why-houseplants .text-container h2 {
+    text-align: center;
+}
+
+.why-houseplants .text-container div {
+    display: flex;
+    align-items: center;
+}
+
+.why-houseplants .text-container img {
+    height: 60px;
+    width: 60px;
+    margin: 1em;
+}
+
+.why-houseplants .text-container a {
+    font-weight: bold;
+    color: #2b5e2b;
+}
+
+/* --------------------------------------------------------- */
+
+/* Houseplant Types [HOME]*/
+
+.houseplant-types h2 {
+    text-align: center;
+    margin: 2em;
+}
+
+.houseplant-types .container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 15px;
+}
+
+.houseplant-types div.tile {
+    padding: 3em 4em;
+    
+}
+
+.style1 {
+    background-color: #e4e7e4;
+}
+
+.style2 {
+    background-color: #f4f5f4;
+}
+
+.houseplant-types img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #606b60;
+    border-radius: 5px;
+}
+
+.houseplant-types h3 {
+    text-align: end;
+    letter-spacing: 3px;
+}
+
+.houseplant-types p {
+    margin: 0;
+}
+
+/* --------------------------------------------------------- */
+
+/* [PLANT CARE] */
+
+.care-intro {
+    max-width: 1100px;
+    margin-top: 4em;
+    margin-inline: auto;
+}
+
+.care-intro .container {
+    margin-inline: 1em;
+}
+
+.care-intro .text-container {
+    padding: 1em 2em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #e9e2dd;
+}
+
+.care-guide a {
+    font-weight: bold;
+    color: #2b5e2b;
+}
+
+.care-intro .image-container {
+    display: flex;
+}
+
+.care-intro .container-photo {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.care-guide .text-container {
+    max-width: 1100px;
+    padding: 1em 2em;
+    margin-inline: auto;
+    padding-block: 1em;
+    border-radius: 10px;
+}
+
+.care-guide .guide-intro {
+    max-width: 900px;
+}
+
+.care-section {
+    margin-block: 2em;
+    padding: 1em;
+    background-color: #f4f5f4;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 10px;
+}
+
+.care-section.alt {
+    background-color: #e4e7e4;
+}
+
+.care-section ul {
+    padding-left: 0.5em;
+}
+
+.care-guide .guide-conclusion {
+    max-width: 900px;
+}
+/* --------------------------------------------------------- */
+
+/* Gallery Intro [GALLERY] */
+
+.gallery-intro {
+    margin-top: 0;
+    background-color: #e9e2dd;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 15px;
+}
+
+.gallery-intro .image-container {
+    height: 50vh;
+    padding-right: 3em;
+    padding-bottom: 2em;
+}
+
+.gallery-intro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-intro .text-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 0 2em 2em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery-intro a {
+    margin: 0.6em;
+    padding: 0.7em;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: #e9e2dd;
+}
+
+.gallery-intro a:hover {
+    color: #e9e2dd;
+}
+
+/* --------------------------------------------------------- */
+
+/* Care Indexes [GALLERY] */
+
+
+.care-indexes {
+    min-height: 70vh;
+    margin-inline: 2em;
+}
+
+.care-indexes .text-container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.care-indexes h2 {
+    text-align: center;
+}
+
+.indexes .index-container {
+    max-width: 300px;
+    margin: 0.5em;
+    padding-block: 0.3em;
+    border-block: 1.5px solid #c5cac4;
+    display: flex;
+    flex-direction: column;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+}
+
+.rating-container p {
+    margin: 0;
+    font-size: 0.7em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.rating-container img {
+    height: 20px;
+    max-width: 250px;
+    margin: 0.2em;
+}
+
+.index-intro {
+    grid-row: 2 / 3;
+}
+
+/* --------------------------------------------------------- */
+
+/* Plant Gallery [GALLERY] */
+
+.plant-gallery {
+    padding: 2em;
+    background-color: #e4e7e4;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 15px;
+}
+
+.search-container {
+    background-color: #f4f5f4;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 10px;
+    border: 2px solid #606b60;
+    overflow: hidden;
+    transition: 0.75s;
+}
+
+.search-container:hover {
+    border-radius: 15px;
+}
+
+.search-container button {
+    width: 100%;
+    padding: 1em 0.80em;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    color: #001b00;
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    background-color: #f4f5f4;
+}
+
+.search-container button.hide {
+    display: none;
+}
+
+.search-container .search.hide {
+    display: none;
+}
+
+.search-container input {
+    max-width: 250px;
+    margin: 0.75em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+  
+.search-container ul {
+    margin: 0.5em;
+    padding: 0;
+    list-style-type: none;
+}
+
+.search-container li {
+    padding: 0.25em;
+    display: none;
+}
+
+.search-container li a {
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #001b00;
+}
+
+.search-container li:hover {
+    background-color: #eee;
+}
+
+.plant-gallery h2 {
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-item {
+    height: 85%;
+    max-width: 200px;
+    margin-block: 2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f5f4;
+    border-radius: 5px;
+    border: 2px solid #606b60;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 10px;
+    transition: 1s;
+}
+
+.gallery-item:hover {
+    border-radius: 30px;
+}
+
+.gallery-item h3 {
+    margin-top: 0;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.gallery-item .gallery-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery-item .index-container {
+    max-width: 300px;
+    margin: 1em;
+    padding-block: 0.3em;
+    display: flex;
+    justify-content: center;
+    border-block: 1.5px solid #c5cac4;
+}
+
+.gallery-item .index-container img {
+    margin-inline: 1em;
+}
+
+.gallery-item .text-container {
+    margin-block: 1em;
+}
+
+#gallery-top {
+    padding: 0.8em 0.80em;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    text-align: left;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #606b60;
+    color: #001b00;
+    background-color: #f4f5f4;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 10px;
+    transition: 0.75s;
+}
+
+#gallery-top:hover {
+    border-radius: 15px;
+}
+
+/* --------------------------------------------------------- */
+
+/*  [ABOUT US] */
+
+.about-us {
+    margin-inline: 1em;
+}
+
+.about-us section {
+    max-width: 450px;
+    margin: auto;
+    margin-block: 10em;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 10px;
+}
+
+.about-us .greenhouse {
+    margin-top: 4em;
+}
+
+.about-us .text-container {
+    padding: 1em 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    background-color: #f4f5f4;
+}
+
+#mission .text-container {
+    background-color: #e9e2dd;
+}
+
+.about-us .text-container p {
+    text-align: left;
+}
+
+.about-us .text-container img {
+    height: 90px;
+    width: 90px;
+}
+
+.about-us h2 {
+    margin-block: 1.5em;
+    letter-spacing: 3px;
+}
+
+.about-us .image-container {
+    display: flex;
+}
+
+.about-us .container-photo {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+
+/* Footer */
+
+footer p {
+    padding: 4em 0 4em 0;
+    text-align: center;
+    line-height: 1;
+    border-top: 1.5px solid #dee3dd;
+    font-size: 0.75em;
+    color: #dee3dd;
+}
+
+/* --------------------------------------------------------- */
+
+@media screen and (min-width: 360px) {
+
+    .nav-container h1 {
+        margin-block: 1.5em;
+        font-size: 2em;
+    }
+
+    .gallery-item {
+        max-width: 300px;
+    }
+
+    .care-section {
+        padding: 1em 2em;
+    }
+    
+    .care-section ul {
+        padding-left: 1em;
+    }
+}
+
+
+@media screen and (min-width: 499px) {
+
+    .nav-container img {
+        width: 50px;
+        height: 50px;
+        margin-block: 2.2em;
+        margin-left: 1em;
+        padding: 0.25em;
+        border-radius: 25px;
+    }
+
+    .nav-container h1 {
+        margin-block: 1em;
+        font-size: 3em;
+    }
+
+    .gallery-item {
+        max-width: 600px;
+    }
+
+    .gallery-item .index-container img {
+        margin-inline: 1.5em;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    .houseplant-types {
+        max-width: 1600px;
+        margin: 8em auto;
+    }
+
+    .houseplant-types .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .climbing-plants.style1 {
+        background-color: #f4f5f4;
+    }
+    
+    .indoor-palms.style2 {
+        background-color: #e4e7e4;
+    }
+
+    .care-intro {
+        max-width: 1200px;
+        margin-block: 8em 12em;
+    }
+
+    .care-intro .container {
+        display: flex;
+    }
+
+    .care-intro .text-container {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .care-intro .image-container {
+        width: 100vw;
+        max-width: 400px;
+    }
+
+    .care-intro .container-photo {
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+        object-fit: cover;
+    }
+
+    .care-section {
+        margin-right: 5em;
+    }
+    
+    .care-section.alt {
+        margin-right: 0em;
+        margin-left: 5em;
+    }
+}
+
+
+@media screen and (min-width: 850px) {
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-item {
+        margin-inline: 1em;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    
+    .nav-container h1.hide {
+        display: flex;
+    }
+
+    nav {
+        margin-right: 1em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav a {
+        width: auto;
+    }
+
+    .nav-container {
+        align-items: center;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .landing-screen {
+        display: flex;
+        align-items: center;
+    }
+
+    .landing-screen .image-container {
+        height: 100vh;
+    }
+
+    .landing-screen img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 25%;
+    }
+
+    .landing-screen .text-container {
+        position: relative;
+        bottom: 70px;
+    }
+
+    .landing-screen .text-container a {
+        position: relative;
+        top: 20px;
+    }
+
+    .landing-screen .quote {
+        position: relative;
+        top: 100px;
+    }
+
+    .why-houseplants .text-container div {
+        margin-block: 1em;
+    }
+
+    .gallery-intro {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .gallery-intro .image-container {
+        height: 100vh;
+        width: 60vw;
+        padding-left: 2em;
+    }
+
+    .gallery-intro .text-container {
+        width: 40vw;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .gallery-intro a {
+        position: relative;
+        top: 30px;
+    }
+
+    .care-indexes p {
+        margin-block: 2em;
+    }
+
+    .care-indexes .rating-container p {
+        margin-block: 0;
+    }
+
+    .about-us section {
+        max-width: 1000px;
+        display: flex;
+    }
+
+    .about-us section#mission {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .about-us .text-container {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+
+    .about-us .image-container {
+        width: 150vw;
+    }
+
+    .about-us .container-photo {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        object-fit: cover;
+    }
+
+    #mission .text-container {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+
+    #mission .container-photo {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

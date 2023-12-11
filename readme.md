@@ -1,10 +1,30 @@
-# CTEC3905 ASSIGNMENT
+# CTEC3905 ASSIGNMENT - [Mark Recieved - 97.5%]
 
-## My Website - **Greenhouse**
+## Assignment Brief
+
+For this project, I was assigned the task of developing a website comprising no more than four separate pages, centered around a topic of my choice. The primary objectives of this module were to teach students:
+
+- **GIT and GitHub Usage**: Gain proficiency in version control and code storage through GIT and GitHub.
+- **Information Architecture and Design Principles**: Exhibit a critical understanding of Information Architecture, user interface design, usability principles, and semantic markup.
+- **Front-End Web Technologies**: Demonstrate a comprehensive grasp of the three current front-end web technologies, understanding their applications and contexts.
+- **Standards-Compliance and Responsiveness**: Create a fully standards-compliant, responsive, and accessible website or web-based application.
+
+## Marking Criteria
+
+The assignment was marked on 5 criteria for each of the following 4 headings:
+
+- **HTML and CSS Code Quality**
+- **JavaScript, APIs & JSON**
+- **Responsiveness, Accessibility, and Interaction**
+- **GIT Version Control**
+
+If a criterion is fulfilled, a 5% score is awarded; if partially addressed, a 2.5% score is given, and if not addressed, the score is 0%.
+
+## Website Description
 
 Greenhouse is a website that provides information about houseplants such as growing tips, interesting facts and the conditions specific plants need to thrive. The website has sections intended to inspire people to start caring for houseplants and provides inspiration for those deciding what plant to choose next.
 
-Greenhouse's target audience is both new and experienced houseplant growers. The website has an intuitive design and uses simplistic terminology, designed to be accessible  for those who are new to growing houseplants while also being engaging for those who are not. It has a variety of sections that can be useful to both audiences, and condenses both informative and trivial information into an easy to read format.
+The target audience is both new and experienced houseplant growers. The website has an intuitive design and uses simplistic terminology, designed to be accessible  for those who are new to growing houseplants while also being engaging for those who are not. It has a variety of sections that can be useful to both audiences, and condenses both informative and trivial information into an easy to read format.
 
 ## Website Organisation
 
@@ -25,15 +45,13 @@ Each of the tiles in the **Plant Gallery** are constructed with JavaScript, the 
 
 ## References
 
-[Quote by David Attenborough](https://wwf.org.au/blogs/10-best-nature-quotes-from-sir-david-attenborough/?rd=1)
-
-### Images
-
-#### Navigation Bar
+### Navigation Bar
 
 [Plant Logo](https://pngtree.com/freepng/a-bunch-of-black-foliage-patterns_4286368.html)
 
-#### Home
+### Home
+
+[Quote by David Attenborough](https://wwf.org.au/blogs/10-best-nature-quotes-from-sir-david-attenborough/?rd=1)
 
 [Landing Photo](https://www.apartmenttherapy.com/8-houseplants-that-can-survive-urban-apartments-243071), 
 [Indoor Palm](https://www.masterclass.com/articles/palm-plant-care-guide), 
@@ -45,12 +63,12 @@ Each of the tiles in the **Plant Gallery** are constructed with JavaScript, the 
 [Lightbulb Cartoon](https://upload.wikimedia.org/wikipedia/commons/6/64/Simple_light_bulb_graphic.png), 
 [Gas Mask Cartoon](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZ6mXFonbM6wGK1mWXY2TnNB4mSdrFSAwWjR_EQfPUir4G82kuIaRxCqwdzWGv9my5xE&usqp=CAU)
 
-#### Plant Care
+### Plant Care
 
 [Propagation](https://modernfarmer.com/2021/04/how-to-propagate-your-houseplants/), 
 [Growing GIF](https://giphy.com/stickers/plants-leaves-plant-growth-jV5evAbMaL4GSn85tt)
 
-#### Gallery
+### Gallery
 
 [Intro Photo](https://www.pexels.com/search/indoor%20plants/), 
 [Sun Icon](https://www.freeiconspng.com/images/sun-icon), 
@@ -70,7 +88,7 @@ Each of the tiles in the **Plant Gallery** are constructed with JavaScript, the 
 
 
 
-#### About US
+### About US
 
 [Greenhouse Cartoon](https://pngtree.com/so/greenhouse), 
 [Collection 1](https://www.gardeningetc.com/news/plant-of-the-year-2022-baby-rubber-plant), 

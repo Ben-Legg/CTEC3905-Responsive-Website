@@ -1,4 +1,4 @@
-# CTEC3905 ASSIGNMENT - [Mark Recieved - 97.5%]
+# CTEC3905 Front-end Web Development Assignment - [Mark Recieved - 97.5%]
 
 ## Assignment Brief
 
